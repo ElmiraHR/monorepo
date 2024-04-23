@@ -1,0 +1,228 @@
+    1  cd ~/.ssh
+    2  ls -al
+    3  cat id_rsa.pub
+    4  git config --global user.name ElmiraHR
+    5  git config --global user.email elhrachyan@gmail.com
+    6  git config --global -l
+    7  ssh -T git@github.com
+    8  cd ..
+    9  dir
+   10  cd My\ Documents
+   11  dir
+   12  mkdir -p linux/Work
+   13  dir
+   14  ls -la
+   15  git clone git@github.com:ElmiraHR/290124-wdm.git
+   16  cd linux/Work
+   17  git clone git@github.com:ElmiraHR/290124-wdm.git
+   18  dir
+   19  cat
+   20  cd linux/Work
+   21  dir
+   22  cd My\ Documents
+   23  dir
+   24  cd linux
+   25  cd Work
+   26  dir
+   27  cd 290124-wdm
+   28  dir
+   29  nano README.md
+   30  git status
+   31  cd..
+   32  cd ..
+   33  ls -al
+   34  cd 290124-wdm
+   35  ls -al
+   36  touch song.txt
+   37  ls -al
+   38  git status
+   39  git add song.txt
+   40  git commit -m "Add new file song.txt"
+   41  git log
+   42  git push 
+   43  dir
+   44  cd My\Documents\linux\Work
+   45  cd My\Documents
+   46  cd My\ Documents\linux\Work
+   47  cd My\ Documents
+   48  dir
+   49  cd linux
+   50  ls -la
+   51  cd Work
+   52  git clone [200~git@github.com:ElmiraHR/git_intro.git~
+   53  git clone git@github.com:ElmiraHR/git_intro.git
+   54  cd ~/My Documents
+   55  cd My Documents
+   56  cd My/Documents
+   57  cd My\ Documents
+   58  ды -фд
+   59  ls -al
+   60  cd Linux
+   61  ls -al
+   62  cd git_intro
+   63  ls -al
+   64  cd git_intro
+   65  git status
+   66  git pull
+   67  nano song.txt
+   68  ls -al
+   69  git status
+   70  gid commit -am "Song"
+   71  git add song.txt
+   72  git commit -m "song"
+   73  git push
+   74  git log
+   75  git branch -v
+   76  ls -al
+   77  touch file.txt
+   78  ls -al
+   79  git branch feature 
+   80  git branch -v
+   81  git checkout feature
+   82  git branch -v
+   83  git checkout -b test
+   84  git branch -v
+   85  git checkout feature
+   86  git branch -d test
+   87  git branch -v
+   88  nano file.txt
+   89  ls -al
+   90  git log
+   91  git branch -v
+   92  nano Newsong.txt
+   93  git log
+   94  ls -al
+   95  git log
+   96  git checkout main
+   97  ls -al
+   98  git checkout feature
+   99  ls -al
+  100  git checkout main
+  101  ls -al
+  102  nano Newsong.txt 
+  103  git commit -m "song"
+  104  git commite -m "file"
+  105  git commit -m "file"
+  106  git add .
+  107  git commit -m " add"
+  108  git log
+  109  git checkout  e4d917
+  110  git log --oneline
+  111  ls -al
+  112  > text.txt
+  113  ls -al
+  114  rm text.txt
+  115  ls -al
+  116  > .gitignore
+  117  ls -al
+  118  git --global -l
+  119  dir
+  120  cd ..
+  121  cd ..
+  122  dir
+  123  mkdir git-branch
+  124  cd git-branch
+  125  git init
+  126  git checkout -b gitignore
+  127  touch .gitignore
+  128  git add .gitignore
+  129  git commit -m "Add .gitignore file"
+  130  nano .gitignore
+  131  git add .gitignore
+  132  git commit -m "Add ignore text in .gitignore"
+  133  git remote add origin git@github.com:ElmiraHR/git-branch.git
+  134  git push -u origin gitignore
+  135  cd todoForm
+  136  cd ..
+  137  cd todoForm
+  138  git init
+  139  git add.
+  140  git add .
+  141  git commit -m "Add Homework todoForm"
+  142  git push git@github.com:ElmiraHR/todoForm.git
+  143  cd ..
+  144  git status
+  145  ls -al
+  146  git branch -v
+  147  cd 290124-wdm/
+  148  ls -al
+  149  cd ..
+  150  cd git-branch
+  151  ls -al
+  152  git branch -v
+  153  cd ..
+  154  git log --oneline --all --graph --decorat
+  155  git checkout -b feature2
+  156  cd 290124-wdm/
+  157  git checkout -b feature2
+  158  ls -al
+  159  git status
+  160  git checkout main
+  161  nan newsong2.txt
+  162  nano newsong2.txt
+  163  git add
+  164  git add newsong2.txt 
+  165  git commit -m "new song"
+  166  checkout feature2
+  167  git  checkout feature2 
+  168  git merge main
+  169  git checkout main
+  170  nano newsong2.txt 
+  171  git checkout feature2 
+  172  git rebase main
+  173  git checkout main
+  174  git rebase feature2 
+  175  cd ..
+  176  ls -al
+  177  git clone git@github.com:ElmiraHR/HomeWork-12.git
+  178  ls -al
+  179  cd HomeWork-12/
+  180  git checkout -b feature
+  181  cd ..
+  182  rm -rf HomeWork-12/
+  183  ls -al
+  184  git clone git@github.com:ElmiraHR/HomeWork-12.git
+  185  ls -al
+  186  git checkout -b feature
+  187  nano .gitignore
+  188  ls -al
+  189  rm -rf HomeWork-12/
+  190  rm -rf .gitignore 
+  191  ls -al
+  192  clear
+  193  cd linux
+  194  ls -al
+  195  cd linux
+  196  ls -al
+  197  git clone git@github.com:ElmiraHR/HomeWork-12.git
+  198  cd HomeWork-12/
+  199  ls -al
+  200  nano .gitignore
+  201  ls -al
+  202  git status
+  203  git add .gitignore
+  204  git commit -m "Initial commit"
+  205  git status
+  206  cd ..
+  207  rm -rf HomeWork-12/
+  208  ls -al
+  209  clear
+  210  cd linux
+  211  ls -al
+  212  git clone git@github.com:ElmiraHR/HomeWork-12.git
+  213  ls -al
+  214  c HomeWork-12/
+  215  cd HomeWork-12/
+  216  git checkout -b feature
+  217  ls -al
+  218  nano .gitignore
+  219  ls -al
+  220  git status
+  221  git add .gitignore
+  222  git commit -m "Initial commit"
+  223  git status
+  224  git push origin feature
+  225  git commit --amend -m "Initial commit amended"
+  226  git checkout main
+  227  git merge feature
+  228  history > history.txt
